@@ -1,0 +1,142 @@
+/*
+Css para textos
+*/
+
+*{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.titulos{
+	font-family: 'Bevan', cursive;
+}
+
+.textos{
+	font-weight: bold;
+	color: white;
+}
+
+
+/* Css para fondos que se utilizan*/
+
+.fondo-form{
+	
+	background: rgba(0,0,0,.2);
+	background-size: 100% 100%: 
+	border-radius: 5px;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+
+.fondo{
+	position: relative;
+	height:  700px;
+	
+
+}
+.fondo:before {
+
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: url('../img/fondos/comedor.jpg') no-repeat center center /cover;
+	content: '';
+	filter: contrast(50%);
+}
+.fondo2{
+	position: relative;
+
+
+}
+.fondo2:before {
+
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: url('../img/fondos/fondo.jpg') no-repeat center center /cover;
+	content: '';
+	filter: contrast(50%);
+}
+
+.fondo-form{
+	
+	background: rgba(0,0,0,.2);
+	background-size: 100% 100%: 
+	border-radius: 5px;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+/*
+Filtros aplicados en fotos
+*/
+.filtro:hover{
+	opacity: 0.8;
+	border-radius: 5px;
+
+}
+
+
+.filtro2{
+	background: linear-gradient(transparent 100%, transparent 100%);
+	border:none;	
+}
+
+/*
+Radio de fondo de formulario y carousel
+*/
+.radio1{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.radio2{
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+
+/*
+Css para botones
+*/
+
+
+.boton1{
+	background: #feb825;
+	border-style: 2px solid;
+	border-color: #ff9b02;
+	color: white;
+	font-weight: bold;
+}
+.boton1:hover{
+	color: white;
+	background:  #f6a41f;
+}
+
+/*Tamaño de columna*/
+.sizeCol{
+	height: 700px; 
+}
+
+/*
+CSS para navbar
+*/
+
+nav{
+	background-image: url("../img/fondos/2.jpg");
+	background-size:100%;
+	height: 80px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+
+/*
+CSS de footer
+*/
+.footer{
+	background-image: url("../img/fondos/2.jpg");
+	background-size:100% 100%;
+}
